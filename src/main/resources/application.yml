@@ -1,0 +1,18 @@
+#elasticsearch:
+##  host: localhost
+##  port: 9200
+#  url: localhost:9200
+spring:
+  elasticsearch:
+    rest:
+      uris: http://localhost:9200
+
+productrestapi:
+  services:
+    url: http://localhost:8084
+
+server:
+  port: '8084'
+
+error:
+  messages: "Record not found"
